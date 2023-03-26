@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestNG.TestNG_Attributes">
+        <methods>
+          <include name="melbourne"/>
+          <include name="new_York"/>
+          <include name="session_initiated"/>
+          <include name="window_Manage_Max"/>
+          <include name="los_Angeles"/>
+          <include name="hotel_Creek"/>
+          <include name="hotel_Hervey_London"/>
+          <include name="browser_Launch"/>
+          <include name="window_Manage_Mini"/>
+          <include name="close_Browser"/>
+          <include name="log_Out"/>
+          <include name="paris"/>
+          <include name="hotel_Cornice"/>
+          <include name="log_In"/>
+          <include name="brisbane"/>
+          <include name="session_Ended"/>
+        </methods>
+      </class> <!-- com.TestNG.TestNG_Attributes -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
